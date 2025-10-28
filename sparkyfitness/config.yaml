@@ -13,7 +13,7 @@ init: false
 ingress: true
 timeout: 30
 services:
-  sparkyfitness-server:need
+  sparkyfitness-server: need
 map: []
 legacy: true
 options:
