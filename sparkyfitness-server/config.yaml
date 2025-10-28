@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: sparkyfitness-server
-version: "v0.15.8"
+version: "0.15.8"
 slug: sparkyfitness-server
 description: SparkyFitness Server
 url: "https://github.com/CodeWithCJ/SparkyFitness"
