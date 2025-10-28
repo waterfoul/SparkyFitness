@@ -12,8 +12,6 @@ boot: auto
 init: false
 ingress: true
 timeout: 30
-services:
-  sparkyfitness-server: need
 map: []
 legacy: true
 options:
