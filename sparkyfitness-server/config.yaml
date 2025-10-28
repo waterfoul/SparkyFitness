@@ -19,7 +19,7 @@ map:
     read_only: False
     path: /app/SparkyFitnessServer/uploads  
 options:
-  SPARKY_FITNESS_DB_NAME: "sparkyfitness_db"
+  SPARKY_FITNESS_DB_NAME: "postgres"
   SPARKY_FITNESS_DB_USER: "postgres"
   SPARKY_FITNESS_DB_HOST: "homeassistant.local"
   SPARKY_FITNESS_FRONTEND_URL: "homeassistant.local/hassio/ingress/sparkyfitness"
