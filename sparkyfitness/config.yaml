@@ -17,6 +17,10 @@ map: []
 legacy: true
 options:
   SPARKY_FITNESS_FRONTEND_URL: "homeassistant.local/hassio/ingress/sparkyfitness"
+  SPARKY_FITNESS_SERVER_HOST: homeassistant.local
+  SPARKY_FITNESS_SERVER_PORT: "3010"
 schema:
   SPARKY_FITNESS_FRONTEND_URL: str
+  SPARKY_FITNESS_SERVER_HOST: str
+  SPARKY_FITNESS_SERVER_PORT: str
 image: codewithcj/sparkyfitness
