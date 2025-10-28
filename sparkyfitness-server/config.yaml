@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: SparkyFitness Server
-version: 0.15.8
+version: v0.15.8.2
 slug: sparkyfitness-server
 description: SparkyFitness Server
 url: "https://github.com/CodeWithCJ/SparkyFitness"
@@ -44,4 +44,4 @@ schema:
   SPARKY_FITNESS_EMAIL_PASS: "str?"
   SPARKY_FITNESS_EMAIL_FROM: "str?"
   GARMIN_MICROSERVICE_URL: "str?"
-image: "codewithcj/sparkyfitness_server:v0.15.8.2"
+image: "codewithcj/sparkyfitness_server"
