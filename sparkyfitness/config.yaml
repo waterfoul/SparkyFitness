@@ -15,6 +15,7 @@ ports:
 timeout: 30
 map: []
 legacy: true
+webui: localhost:80
 options:
   SPARKY_FITNESS_FRONTEND_URL: "homeassistant.local:3080"
   SPARKY_FITNESS_SERVER_HOST: homeassistant.local
