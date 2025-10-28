@@ -11,7 +11,6 @@ boot: auto
 init: false
 ingress: true
 timeout: 30
-panel_icon: mdi:water
 map: []
 ports: {}
 ports_description: {}
@@ -29,4 +28,4 @@ schema:
   mqttUsername: str?
   mqttPassword: password?
   refreshRate: int
-image: ghcr.io/waterfoul/rainsoft2mqtt-{arch}
+image: "codewithcj/sparkyfitness:v0.15.8.2"
