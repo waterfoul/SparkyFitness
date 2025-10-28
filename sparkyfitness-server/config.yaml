@@ -11,6 +11,8 @@ boot: auto
 init: false
 ingress: false
 timeout: 30
+services:
+  sparkyfitness-server:provide
 map:
   - type: backup
     read_only: False
