@@ -1,0 +1,1 @@
+FROM codewithcj/sparkyfitness_server:latest
