@@ -14,8 +14,6 @@ ingress: true
 timeout: 30
 map: []
 legacy: true
-services:
-- sparkyfitness-server:need
 options:
   SPARKY_FITNESS_FRONTEND_URL: "homeassistant.local/hassio/ingress/sparkyfitness"
 schema:
