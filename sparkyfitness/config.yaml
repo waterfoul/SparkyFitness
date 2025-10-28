@@ -10,6 +10,7 @@ url: "https://github.com/CodeWithCJ/SparkyFitness"
 startup: application
 boot: auto
 init: false
+ingress_port: 3004
 ingress: true
 timeout: 30
 map: []
