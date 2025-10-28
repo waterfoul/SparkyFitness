@@ -44,4 +44,5 @@ schema:
   SPARKY_FITNESS_EMAIL_PASS: "str?"
   SPARKY_FITNESS_EMAIL_FROM: "str?"
   GARMIN_MICROSERVICE_URL: "str?"
+legacy: true
 image: "codewithcj/sparkyfitness_server"
