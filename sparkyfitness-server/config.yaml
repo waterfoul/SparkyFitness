@@ -13,6 +13,8 @@ ingress: false
 timeout: 30
 discovery:
 - sparkyfitness-server
+ports:
+  3010/tcp: 3010
 map:
   - type: backup
     read_only: False
