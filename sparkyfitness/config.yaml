@@ -11,6 +11,8 @@ startup: application
 boot: auto
 init: false
 ingress_port: 80
+ports:
+  80/tcp: 3080
 ingress: true
 timeout: 30
 map: []
