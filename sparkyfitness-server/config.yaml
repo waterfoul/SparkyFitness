@@ -14,9 +14,7 @@ map:
     path: /app/SparkyFitnessServer/backup
   - type: data
     read_only: False
-    path: /app/SparkyFitnessServer/uploads
-services:
-  
+    path: /app/SparkyFitnessServer/uploads  
 options:
   SPARKY_FITNESS_DB_NAME: "sparkyfitness_db"
   SPARKY_FITNESS_DB_USER: "postgres"
