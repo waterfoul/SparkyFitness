@@ -12,21 +12,12 @@ boot: auto
 init: false
 ingress: true
 timeout: 30
+services:
+  sparkyfitness-server:need
 map: []
-ports: {}
-ports_description: {}
+legacy: true
 options:
-  username: 
-  password: 
-  mqttUri: ''
-  mqttUsername: ''
-  mqttPassword: ''
-  refreshRate: 5
+  SPARKY_FITNESS_FRONTEND_URL: "homeassistant.local/hassio/ingress/sparkyfitness"
 schema:
-  username: str
-  password: password
-  mqttUri: str?
-  mqttUsername: str?
-  mqttPassword: password?
-  refreshRate: int
+  SPARKY_FITNESS_FRONTEND_URL: str
 image: codewithcj/sparkyfitness
