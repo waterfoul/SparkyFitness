@@ -16,7 +16,7 @@ timeout: 30
 map: []
 legacy: true
 options:
-  SPARKY_FITNESS_FRONTEND_URL: "homeassistant.local/hassio/ingress/sparkyfitness"
+  SPARKY_FITNESS_FRONTEND_URL: "homeassistant.local:3080"
   SPARKY_FITNESS_SERVER_HOST: homeassistant.local
   SPARKY_FITNESS_SERVER_PORT: "3010"
 schema:
