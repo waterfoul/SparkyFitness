@@ -11,6 +11,8 @@ boot: auto
 init: false
 ingress: false
 timeout: 30
+discovery:
+- sparkyfitness-server
 services:
 - sparkyfitness-server:provide
 map:
