@@ -13,8 +13,6 @@ ingress: false
 timeout: 30
 discovery:
 - sparkyfitness-server
-services:
-- sparkyfitness-server:provide
 map:
   - type: backup
     read_only: False
