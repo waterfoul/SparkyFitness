@@ -1,5 +1,5 @@
 name: SparkyFitness
-version: 0.15.8
+version: v0.15.8.2
 slug: sparkyfitness
 description: Sparky Fitness Frontend
 arch:
@@ -29,4 +29,4 @@ schema:
   mqttUsername: str?
   mqttPassword: password?
   refreshRate: int
-image: "codewithcj/sparkyfitness:v0.15.8.2"
+image: codewithcj/sparkyfitness
