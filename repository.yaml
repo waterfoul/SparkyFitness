@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Home Assistant Add-on: Sparky Fitness
+name: 'Home Assistant Add-on: Sparky Fitness'
 url: 'https://github.com/waterfoul/SparkyFitness'
 maintainer: Aaron Sterren <waterfoul@gmail.com>
