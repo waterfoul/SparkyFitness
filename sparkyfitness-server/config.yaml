@@ -26,7 +26,7 @@ options:
   SPARKY_FITNESS_DB_NAME: "postgres"
   SPARKY_FITNESS_DB_USER: "postgres"
   SPARKY_FITNESS_DB_HOST: "homeassistant.local"
-  SPARKY_FITNESS_FRONTEND_URL: "homeassistant.local/hassio/ingress/sparkyfitness"
+  SPARKY_FITNESS_FRONTEND_URL: "homeassistant.local:3080"
   SPARKY_FITNESS_APP_DB_USER: "sparky_app"
 schema:
   SPARKY_FITNESS_LOG_LEVEL: "str?"
