@@ -1,14 +1,10 @@
----
-name: Rainsoft2MQTT
+name: SparkyFitness
 version: 1.0.27
-slug: rainsoft2mqtt
-description: Connects to Rainsoft Remind to add data to MQTT
+slug: sparkyfitness
+description: Sparky Fitness Frontend
 arch:
 - aarch64
 - amd64
-- i386
-uart: false
-udev: false
 url: https://github.com/waterfoul/Rainsoft2MQTT/tree/master/rainsoft2mqtt
 startup: application
 services:
